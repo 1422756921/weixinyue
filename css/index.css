@@ -1,0 +1,118 @@
+body {
+    min-width: 320px;
+    max-width: 750px;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    margin: 0 auto;
+    background-color: #EFEDEE;
+}
+a {
+    text-decoration: none;
+}
+@media screen and (min-width: 750px) {
+    html {
+      font-size: 37.5px !important;
+    }
+}
+/* 取消移动端长按高亮背景显示 这里设置为透明 */
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+img,
+a {
+    -webkit-touch-callout: none;
+    text-decoration: none;
+}
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+/* =============== 样式开始 ================= */
+.outline {
+    padding: .4rem .4rem 0;
+}
+.service {
+    display: flex;
+    background-color: #2BAC69;
+    border-radius: .32rem;
+    margin-bottom: .4rem;
+    padding: 1.111rem 0;
+    overflow: hidden;
+}
+.service .cap,
+.service .wallet {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    color: #FCFAFA;
+}
+.service .cap a .icon,
+.service .wallet a .icon{
+    display: block;
+    width: 2.24rem;
+    height: 2.24rem;
+    font-size: 1.76rem;
+    margin-bottom: .5rem;
+    color: #FCFAFA;
+}
+.service .cap a,
+.service .wallet a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 8.1067rem;
+    height: 6.4rem;
+    padding-top: 1.0667rem;
+    font-size: .8rem;
+    color: #FCFAFA;
+    text-align: center;
+}
+.service .cap a:hover,
+.service .wallet a:hover {
+    background-color: rgba(32, 33, 36, .1);
+    border-radius: .32rem;
+}
+
+.service .wallet a .balance {
+    width: 8.1067rem;
+    font-size: .72rem;
+    color: #8CD8AA;
+    margin-top: .32rem;
+    text-align: center;
+}
+/* 通用nav样式 */
+.use {
+    background-color: #fff;
+    border-radius: .32rem;
+    width: 100%;
+    padding-bottom: .8rem;
+    margin-bottom: .4rem;
+}
+.use_hd p {
+    color: #6E6C6D;
+    letter-spacing: .032rem;
+    font-size: .6933rem;
+    padding: .7467rem .6667rem .8rem;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 25%;
+    margin-bottom: 1.4667rem;
+    margin-top: .5867rem;
+}
+.nav li .icon {
+    font-size: 1.56rem;
+}
+.nav li p {
+    font-size: .6933rem;
+    margin-top: .5333rem;
+}

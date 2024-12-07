@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>服务</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="layer/layer.js"></script>
+    <style>
+        .layui-layer-input {
+            font-size: 16px;
+        }
+        .layui-layer-btn0,.layui-layer-btn1 {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <section class="outline">
+        <div class="service">
+            <div class="cap">
+                <a target="_blank" href="https://blog.qinglin.co/yanhua/1.html">
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-shoufukuan1"></use></svg>
+                    <p>收付款</p>
+                </a>
+            </div>
+            <div class="wallet">
+                <a href="">
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-qianbao"></use></svg>
+                    <p>钱包</p>
+                    <p class="balance"></p>
+                </a>
+            </div>
+        </div>
+        <!-- 金融理财 -->
+        <div class="use">
+            <div class="use_hd">
+                <p>金融理财</p>
+            </div>
+            <nav class="nav">
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-xinyongqiahuankuan"></use></svg>
+                    <p>信用卡还款</p>
+                </li>
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-licaitong"></use></svg>
+                    <p>理财通</p>
+                </li>
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-baoxianfuwu"></use></svg>
+                    <p>保险服务</p>
+                </li>
+                <li></li>
+            </nav>
+        </div>
+
+        <div class="use">
+            <div class="use_hd">
+                <p>生活服务</p>
+            </div>
+            <nav class="nav">
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-shoujichongzhi1"></use></svg>
+                    <p>手机充值</p>
+                </li>
+                <li>
+                    <svg t="1647093666267" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4348" width="32" height="32"><path d="M420.829867 1004.305067c-203.4688-43.444907-338.486613-229.075627-324.164267-436.640427 4.785493-69.393067 25.893547-127.77472 73.386667-192.191147 27.99616-37.976747 345.320107-362.018133 345.320106-362.018133 4.32128-4.52608 11.496107-4.68992 16.022187-0.36864l39.410347 37.649067c4.52608 4.32128 4.68992 11.496107 0.36864 16.022186 0 0-241.11104 235.895467-339.78368 355.6352-40.71424 49.404587-53.998933 96.692907-57.7536 151.04-11.475627 165.922133 94.33088 315.446613 256.18432 353.723734 222.49472 52.61312 421.389653-115.65056 421.389653-329.468587 0-69.515947-21.189973-136.697173-60.33408-193.133227l-274.28864 300.189014-148.411733-114.203307c-6.396587-4.922027-7.591253-14.097067-2.669227-20.486827l29.252267-38.004053c4.922027-6.396587 14.097067-7.591253 20.486826-2.669227L507.446613 600.337067l282.985814-309.684907c1.460907-1.59744 3.979947-1.590613 5.4272 0.02048l19.729066 21.93408c61.535573 68.4032 102.48192 154.016427 110.96064 245.630293 25.688747 277.592747-223.0272 506.42944-505.719466 446.068054z" p-id="4349" fill="#1CBD69"></path></svg>
+                    <p>生活缴费</p>
+                </li>
+                <li>
+                    <svg t="1647093758852" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5303" width="32" height="32"><path d="M878.839923 489.557872c-29.743418-46.99943-42.632983-97.607038-50.350758-151.176095C800.417829 143.543254 608.344279 17.634636 422.355307 75.30101c-122.815163 38.07927-197.606567 123.735116-222.487234 250.495124-11.623735 59.217706-22.740934 116.999714-56.889685 169.790034-34.465976 53.279461-43.7402 115.842355-39.244816 179.300642 2.598174 36.664038 13.791098 70.054519 40.995693 97.232508 8.18338 8.17417 16.292058 21.673625 15.855106 32.385595C157.439752 881.734856 203.099674 922.55454 267.783883 945.100022c71.653947 24.974811 144.967696 23.877827 215.783555-5.913687 19.298532-8.120958 34.81083-11.057847 55.073316-1.221828 58.244542 28.272927 120.866788 28.719088 182.709275 17.476023 98.704023-17.943674 142.117788-71.040986 142.442176-169.583327 30.92329-22.388916 50.297546-53.78702 54.758138-93.076862C926.706093 620.973924 917.838122 551.180348 878.839923 489.557872zM838.798974 657.789411c-0.548492 18.203594-7.91425 36.201503-15.062044 66.660212-25.233708-21.372773-39.48734-33.44574-54.692646-46.325072-17.59882 26.982538-34.342156 52.651151-52.5304 80.537268 10.998495 6.033413 23.922852 10.174734 32.673144 18.636452 12.17632 11.773138 27.230178 25.605168 30.187533 40.685631 4.279467 21.827121-15.522532 34.543747-33.881668 42.757826-58.291614 26.081005-118.835526 28.999474-175.528736 0.451278-40.527019-20.407796-73.857125-21.776979-114.390283-0.441045-53.107545 27.950586-110.563118 24.686239-166.788677 4.916986-6.126534-2.15406-12.06785-5.220908-17.572214-8.691963-36.835953-23.222911-37.795814-52.718689-2.01796-76.576049 11.973706-7.984858 25.355481-13.856589 38.788421-21.067828-17.692964-27.946492-34.155914-53.952796-51.922557-82.016968-14.903431 12.717649-29.839609 25.463951-45.512566 38.838563-28.297486-21.744233-26.875091-48.762587-25.337061-74.009597 3.244904-53.263088 17.491373-103.337553 53.943586-144.310733 13.664208-15.358803 18.34788-31.764448 21.015639-52.398394 5.809309-44.936445 14.762215-89.923032 27.453259-133.423779 30.692023-105.216343 129.925095-174.186158 237.44183-168.359452 105.724926 5.728468 195.385992 82.576717 217.572294 187.953719 9.342786 44.37465 15.066137 89.524966 24.912389 133.771703 2.943029 13.225209 13.254885 25.369807 21.944801 36.657898C824.935222 548.074613 840.521199 600.542592 838.798974 657.789411z" p-id="5304" fill="#1CA6E7"></path></svg>
+                    <p>Q币充值</p>
+                </li>
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-chengshi2"></use></svg>
+                    <p>城市服务</p>
+                </li>
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-tengxungongyi"></use></svg>
+                    <p>腾讯公益</p>
+                </li>
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-yiliaojiankang"></use></svg>
+                    <p>医疗健康</p>
+                </li>
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-jiankangma-01"></use></svg>
+                    <p>防疫健康码</p>
+                </li>
+                <li></li>
+            </nav>
+        </div>
+
+        <div class="use">
+            <div class="use_hd">
+                <p>交通出行</p>
+            </div>
+            <nav class="nav">
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-chuhang"></use></svg>
+                    <p>出行服务</p>
+                </li>
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-huochepiaojipiao1"></use></svg>
+                    <p>火车票机票</p>
+                </li>
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-chengshi"></use></svg>
+                    <p>酒店</p>
+                </li>
+                <li></li>
+            </nav>
+        </div>
+
+        <div class="use">
+            <div class="use_hd">
+                <p>购物消费</p>
+            </div>
+            <nav class="nav">
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-jd"></use></svg>
+                    <p>京东购物</p>
+                </li>
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-suning"></use></svg>
+                    <p>苏宁易购</p>
+                </li>
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-meituanwaimai"></use></svg>
+                    <p>美团外卖</p>
+                </li>
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-elema1"></use></svg>
+                    <p>饿了么</p>
+                </li>
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-maoyan"></use></svg>
+                    <p>电影演出</p>
+                </li>
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-meituan"></use></svg>
+                    <p>美元团购</p>
+                </li>
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-pinduoduo"></use></svg>
+                    <p>拼多多</p>
+                </li>
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-mogujie"></use></svg>
+                    <p>蘑菇街女装</p>
+                </li>
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-sale"></use></svg>
+                    <p>唯品会特卖</p>
+                </li>
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-zhuanzhuan2"></use></svg>
+                    <p>转转二手</p>
+                </li>
+                <li>
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-zhaofang"></use></svg>
+                    <p>贝壳找房</p>
+                </li>
+                <li></li>
+            </nav>
+        </div>
+    </section>
+    <!-- 适配方案 -->
+    <script src="./js/flexible.js"></script>
+    <!-- 字体图标 -->
+    <script src="./font/iconfont.js"></script>
+    <script>
+        layer.ready(function(){
+            // layer.prompt(function(val, index){
+            //     console.log(val);
+            //     $('.balance').html('¥ ' + val);
+            //     layer.close(index);
+            // });
+            layer.prompt({title: '输入金额'}, function(val, index){
+                $('.balance').html('¥ ' + val);
+              layer.close(index);
+            });
+        });
+    </script>
+</body>
+</html>
